@@ -15,7 +15,7 @@ Proyek ini mencakup:
 - Membangun model *machine learning* untuk menentukan fitur-fitur penting yang dapat membantu mencegah *attrition* karyawan.
 
 ### Persiapan
-- **Sumber Data**: Data karyawan diperoleh dari [repositori GitHub Dicoding](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).  
+- **Sumber Data**: Data karyawan diperoleh dari [repositori GitHub Dicoding](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).  Dataset ini adalah Dataset Karyawan Jaya Jaya Maju sesuai dengan instruksi dari submission proyek ini.
 - **Setup Environment**:  
   - Menjalankan `notebook.ipynb`
    - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
