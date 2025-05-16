@@ -17,10 +17,24 @@ Proyek ini mencakup:
 ### Persiapan
 - **Sumber Data**: Data karyawan diperoleh dari [repositori GitHub Dicoding](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).  
 - **Setup Environment**:  
-  - Menjalankan file `notebook.ipynb`.  
-  - Pastikan semua dependensi, *packages*, dan *library* yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk daftar dependensi).  
-  - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab atau Jupyter Notebook untuk melihat hasil analisis data, temuan, dan *insight* yang diperoleh.
-
+  1. Menjalankan `notebook.ipynb`
+   - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
+   - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
+  2. **Menjalankan Dashboard**:
+   Untuk melihat isi dashboard secara langsung, dapat menggunakan **metabase** dengan bantuan Docker (pastikan Docker sudah terinstall).
+   - Jalankan perintah berikut:
+      ```
+      docker pull metabase/metabase:v0.46.4
+      ```
+   - Jalankan container Metabase menggunakan perintah:
+      ```
+      docker run -p 3000:3000 --name metabase metabase/metabase
+      ```
+   - Login ke Metabase menggunakan username dan password berikut:
+      ```
+      username: root@mail.com
+      password: root123
+      ```
 ## Business Dashboard
 Hasil analisis data divisualisasikan dalam bentuk *dashboard* untuk membantu tim HR memantau dan memahami *attrition*. Elemen-elemen yang disertakan dalam *dashboard* meliputi:  
 - Rasio *attrition*.  
