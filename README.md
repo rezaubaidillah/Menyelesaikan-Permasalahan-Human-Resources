@@ -17,10 +17,10 @@ Proyek ini mencakup:
 ### Persiapan
 - **Sumber Data**: Data karyawan diperoleh dari [repositori GitHub Dicoding](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).  
 - **Setup Environment**:  
-  1. Menjalankan `notebook.ipynb`
+  - Menjalankan `notebook.ipynb`
    - Pastikan dependensi, packages, library yang dibutuhkan sudah tersedia (lihat file `requirements.txt` untuk melihat dependensi yang dibutuhkan).
    - Jalankan seluruh isi file `notebook.ipynb` menggunakan Google Colab/Jupyter Notebook untuk melihat hasil analisis data, temuan, dan insight yang diperoleh.
-  2. **Menjalankan Dashboard**:
+  - **Menjalankan Dashboard**:
    Untuk melihat isi dashboard secara langsung, dapat menggunakan **metabase** dengan bantuan Docker (pastikan Docker sudah terinstall).
    - Jalankan perintah berikut:
       ```
